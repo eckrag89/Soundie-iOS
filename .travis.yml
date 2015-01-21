@@ -1,6 +1,9 @@
 before_install:
   - brew update > /dev/null; if brew outdated | grep -qx xctool; then brew upgrade xctool; fi  # Ensure that xctool is up-to-date
 language: objective-c
+before_script:
+- chmod +x travis/addClient-key-secret.sh
+- travis/addClient-key-secret.sh
 xcode_workspace: Soundie/Soundie.xcworkspace
 xcode_scheme: Soundie Ad-Hoc
 xcode_sdk: iphonesimulator8.1
