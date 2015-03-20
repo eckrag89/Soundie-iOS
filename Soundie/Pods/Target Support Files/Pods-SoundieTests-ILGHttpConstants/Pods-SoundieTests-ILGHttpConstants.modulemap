@@ -1,0 +1,6 @@
+framework module ILGHttpConstants {
+  umbrella header "Pods-SoundieTests-ILGHttpConstants-umbrella.h"
+
+  export *
+  module * { export * }
+}

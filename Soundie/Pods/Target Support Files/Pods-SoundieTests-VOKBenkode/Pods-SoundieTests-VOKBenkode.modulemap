@@ -1,0 +1,6 @@
+framework module VOKBenkode {
+  umbrella header "Pods-SoundieTests-VOKBenkode-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SoundieTests {
+  umbrella header "Pods-SoundieTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

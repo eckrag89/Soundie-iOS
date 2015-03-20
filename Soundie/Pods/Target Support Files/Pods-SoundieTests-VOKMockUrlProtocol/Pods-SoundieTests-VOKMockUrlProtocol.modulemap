@@ -1,0 +1,6 @@
+framework module VOKMockUrlProtocol {
+  umbrella header "Pods-SoundieTests-VOKMockUrlProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,11 +6,11 @@
 // project.
 
 
-// ILGHttpConstants
-#define COCOAPODS_POD_AVAILABLE_ILGHttpConstants
-#define COCOAPODS_VERSION_MAJOR_ILGHttpConstants 1
-#define COCOAPODS_VERSION_MINOR_ILGHttpConstants 0
-#define COCOAPODS_VERSION_PATCH_ILGHttpConstants 0
+// Alamofire
+#define COCOAPODS_POD_AVAILABLE_Alamofire
+#define COCOAPODS_VERSION_MAJOR_Alamofire 1
+#define COCOAPODS_VERSION_MINOR_Alamofire 1
+#define COCOAPODS_VERSION_PATCH_Alamofire 4
 
 // SSKeychain
 #define COCOAPODS_POD_AVAILABLE_SSKeychain
@@ -18,17 +18,11 @@
 #define COCOAPODS_VERSION_MINOR_SSKeychain 2
 #define COCOAPODS_VERSION_PATCH_SSKeychain 2
 
-// VOKBenkode
-#define COCOAPODS_POD_AVAILABLE_VOKBenkode
-#define COCOAPODS_VERSION_MAJOR_VOKBenkode 0
-#define COCOAPODS_VERSION_MINOR_VOKBenkode 2
-#define COCOAPODS_VERSION_PATCH_VOKBenkode 1
-
-// VOKMockUrlProtocol
-#define COCOAPODS_POD_AVAILABLE_VOKMockUrlProtocol
-#define COCOAPODS_VERSION_MAJOR_VOKMockUrlProtocol 2
-#define COCOAPODS_VERSION_MINOR_VOKMockUrlProtocol 0
-#define COCOAPODS_VERSION_PATCH_VOKMockUrlProtocol 2
+// SwiftyJSON
+#define COCOAPODS_POD_AVAILABLE_SwiftyJSON
+#define COCOAPODS_VERSION_MAJOR_SwiftyJSON 2
+#define COCOAPODS_VERSION_MINOR_SwiftyJSON 1
+#define COCOAPODS_VERSION_PATCH_SwiftyJSON 3
 
 // Vokoder
 #define COCOAPODS_POD_AVAILABLE_Vokoder

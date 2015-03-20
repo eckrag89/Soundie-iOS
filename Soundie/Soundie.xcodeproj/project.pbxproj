@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73426CFAFCD5064806BE7526 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B37F5E72AFA2DAFDF6D8BA /* libPods.a */; };
+		5EF645772BDD3B3CB0124EEA /* Pods_SoundieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B5CB97FBF656BC7639F27A /* Pods_SoundieTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6EB664046AA84B21AC542D88 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343033FBB073DBF001DB4472 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		73426CFAFCD5064806BE7526 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		E87A81271A6EF84E000AB754 /* AuthorizationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87A81261A6EF84E000AB754 /* AuthorizationUtility.swift */; };
 		E87A81291A6EF8A4000AB754 /* NetworkingBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87A81281A6EF8A4000AB754 /* NetworkingBaseClass.swift */; };
 		E87A812C1A6EF913000AB754 /* AlertUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87A812B1A6EF913000AB754 /* AlertUtility.swift */; };
@@ -19,9 +21,6 @@
 		E8C459051A2D152D00A1BCEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C459041A2D152D00A1BCEE /* Images.xcassets */; };
 		E8C459081A2D152D00A1BCEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C459061A2D152D00A1BCEE /* LaunchScreen.xib */; };
 		E8C459141A2D152D00A1BCEE /* SoundieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C459131A2D152D00A1BCEE /* SoundieTests.swift */; };
-		E8C459441A2E18F300A1BCEE /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E8C4593D1A2E16F700A1BCEE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E8C459451A2E1CED00A1BCEE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C4593D1A2E16F700A1BCEE /* Alamofire.framework */; };
-		F38F7FE5C4AF491D2EFD6310 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B37F5E72AFA2DAFDF6D8BA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,27 +31,6 @@
 			remoteGlobalIDString = E8C458E51A2D152D00A1BCEE;
 			remoteInfo = Soundie;
 		};
-		E8C4593C1A2E16F700A1BCEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8C459371A2E16F700A1BCEE /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = Alamofire;
-		};
-		E8C4593E1A2E16F700A1BCEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8C459371A2E16F700A1BCEE /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = AlamofireTests;
-		};
-		E8C459411A2E184E00A1BCEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8C459371A2E16F700A1BCEE /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = Alamofire;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				E8C459441A2E18F300A1BCEE /* Alamofire.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,9 +48,12 @@
 
 /* Begin PBXFileReference section */
 		12827A78046AF19F022E54C1 /* Pods.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.ad-hoc.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.ad-hoc.xcconfig"; sourceTree = "<group>"; };
+		343033FBB073DBF001DB4472 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB70A7C1DC2549DF6DFE42 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		37B37F5E72AFA2DAFDF6D8BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4237576877142F901BEC2FB9 /* Pods-SoundieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundieTests/Pods-SoundieTests.release.xcconfig"; sourceTree = "<group>"; };
 		6264E7C11736FF476C10EF88 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6F1BFF5DB0DA722A0E8A66 /* Pods-SoundieTests.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundieTests.ad-hoc.xcconfig"; path = "Pods/Target Support Files/Pods-SoundieTests/Pods-SoundieTests.ad-hoc.xcconfig"; sourceTree = "<group>"; };
+		C36D1A579892F304638F07ED /* Pods-SoundieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundieTests/Pods-SoundieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E87A81261A6EF84E000AB754 /* AuthorizationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationUtility.swift; sourceTree = "<group>"; };
 		E87A81281A6EF8A4000AB754 /* NetworkingBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingBaseClass.swift; sourceTree = "<group>"; };
 		E87A812B1A6EF913000AB754 /* AlertUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtility.swift; sourceTree = "<group>"; };
@@ -90,7 +70,7 @@
 		E8C4590D1A2D152D00A1BCEE /* SoundieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C459121A2D152D00A1BCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C459131A2D152D00A1BCEE /* SoundieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundieTests.swift; sourceTree = "<group>"; };
-		E8C459371A2E16F700A1BCEE /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		F2B5CB97FBF656BC7639F27A /* Pods_SoundieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C459451A2E1CED00A1BCEE /* Alamofire.framework in Frameworks */,
-				F38F7FE5C4AF491D2EFD6310 /* libPods.a in Frameworks */,
+				6EB664046AA84B21AC542D88 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73426CFAFCD5064806BE7526 /* libPods.a in Frameworks */,
+				73426CFAFCD5064806BE7526 /* (null) in Frameworks */,
+				5EF645772BDD3B3CB0124EEA /* Pods_SoundieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +100,9 @@
 				6264E7C11736FF476C10EF88 /* Pods.debug.xcconfig */,
 				35DB70A7C1DC2549DF6DFE42 /* Pods.release.xcconfig */,
 				12827A78046AF19F022E54C1 /* Pods.ad-hoc.xcconfig */,
+				C36D1A579892F304638F07ED /* Pods-SoundieTests.debug.xcconfig */,
+				4237576877142F901BEC2FB9 /* Pods-SoundieTests.release.xcconfig */,
+				6B6F1BFF5DB0DA722A0E8A66 /* Pods-SoundieTests.ad-hoc.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -127,7 +110,8 @@
 		D6A4FB23EBEC8B0EF6C16C28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37B37F5E72AFA2DAFDF6D8BA /* libPods.a */,
+				343033FBB073DBF001DB4472 /* Pods.framework */,
+				F2B5CB97FBF656BC7639F27A /* Pods_SoundieTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,7 +146,6 @@
 				E8C458E81A2D152D00A1BCEE /* Soundie */,
 				E8C459101A2D152D00A1BCEE /* SoundieTests */,
 				E8C458E71A2D152D00A1BCEE /* Products */,
-				E8C459371A2E16F700A1BCEE /* Alamofire.xcodeproj */,
 				646B37A3A2020EA45F922CE2 /* Pods */,
 				D6A4FB23EBEC8B0EF6C16C28 /* Frameworks */,
 			);
@@ -277,15 +260,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E8C459381A2E16F700A1BCEE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E8C4593D1A2E16F700A1BCEE /* Alamofire.framework */,
-				E8C4593F1A2E16F700A1BCEE /* AlamofireTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,11 +273,11 @@
 				E8C458E41A2D152D00A1BCEE /* Resources */,
 				E8C459431A2E18DA00A1BCEE /* Copy Frameworks */,
 				45576C8B7042DCCB5084C025 /* Copy Pods Resources */,
+				0D6C49819018BB60B878C2E4 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8C459421A2E184E00A1BCEE /* PBXTargetDependency */,
 			);
 			name = Soundie;
 			productName = Soundie;
@@ -319,6 +293,7 @@
 				E8C4590A1A2D152D00A1BCEE /* Frameworks */,
 				E8C4590B1A2D152D00A1BCEE /* Resources */,
 				BB954CA2B2A7CEEF88E2C469 /* Copy Pods Resources */,
+				64E2ABA1132B250A35AD9D2D /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,12 +334,6 @@
 			mainGroup = E8C458DD1A2D152D00A1BCEE;
 			productRefGroup = E8C458E71A2D152D00A1BCEE /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E8C459381A2E16F700A1BCEE /* Products */;
-					ProjectRef = E8C459371A2E16F700A1BCEE /* Alamofire.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E8C458E51A2D152D00A1BCEE /* Soundie */,
@@ -372,23 +341,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E8C4593D1A2E16F700A1BCEE /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = E8C4593C1A2E16F700A1BCEE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E8C4593F1A2E16F700A1BCEE /* AlamofireTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AlamofireTests.xctest;
-			remoteRef = E8C4593E1A2E16F700A1BCEE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E8C458E41A2D152D00A1BCEE /* Resources */ = {
@@ -411,6 +363,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D6C49819018BB60B878C2E4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		45576C8B7042DCCB5084C025 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +391,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E2ABA1132B250A35AD9D2D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundieTests/Pods-SoundieTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A650B85607A17D7645527055 /* Check Pods Manifest.lock */ = {
@@ -468,7 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundieTests/Pods-SoundieTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -503,11 +485,6 @@
 			isa = PBXTargetDependency;
 			target = E8C458E51A2D152D00A1BCEE /* Soundie */;
 			targetProxy = E8C4590E1A2D152D00A1BCEE /* PBXContainerItemProxy */;
-		};
-		E8C459421A2E184E00A1BCEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			targetProxy = E8C459411A2E184E00A1BCEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -638,7 +615,7 @@
 		};
 		E8C4591B1A2D152D00A1BCEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6264E7C11736FF476C10EF88 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = C36D1A579892F304638F07ED /* Pods-SoundieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -658,7 +635,7 @@
 		};
 		E8C4591C1A2D152D00A1BCEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35DB70A7C1DC2549DF6DFE42 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4237576877142F901BEC2FB9 /* Pods-SoundieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -722,7 +699,7 @@
 		};
 		E8C4594A1A2E4BA500A1BCEE /* Ad-Hoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12827A78046AF19F022E54C1 /* Pods.ad-hoc.xcconfig */;
+			baseConfigurationReference = 6B6F1BFF5DB0DA722A0E8A66 /* Pods-SoundieTests.ad-hoc.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
